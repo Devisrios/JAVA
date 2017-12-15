@@ -1,0 +1,14 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class GUVI
+{
+  String my_variable=new String("not initialised");
+{
+System.out.println("instance");
+my_variable="initialised";
+}
+GUVI()
+{
+    System.out.println(my_variable);
+}
